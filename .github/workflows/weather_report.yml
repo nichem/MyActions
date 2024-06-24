@@ -32,7 +32,7 @@ jobs:
       run: |
         python weather_report.py
       env:
-        APP_ID: ${{ secrets.SMTP_SERVER }}
-        APP_SECRET: ${{ secrets.SMTP_EMAIL }}
-        OPEN_ID: ${{ secrets.SMTP_PASSWORD }}
-        TEMPLATE_ID: ${{ secrets.WEATHER_KEY }}
+        SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+        SMTP_EMAIL: ${{ secrets.SMTP_EMAIL }}
+        SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+        WEATHER_KEY: ${{ secrets.WEATHER_KEY }}
