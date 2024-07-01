@@ -1,3 +1,6 @@
 neosmemo/memos:stable
 remnux/ciphey
 corentinth/it-tools:latest
+vinlic/kimi-free-api:latest
+yangclivia/lobe-chat:latest
+
